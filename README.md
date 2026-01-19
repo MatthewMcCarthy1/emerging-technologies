@@ -1,2 +1,11 @@
-# emerging-technologies
-Quantum Computing assessment for Emerging Technologies: Implementations of the Deutsch and Deutsch–Jozsa algorithms using Python and Qiskit.
+# Emerging Technologies
+**Module:** Emerging Technologies (Year 4, Semester 2)  
+**Author:** Matthew McCarthy  
+
+## Project Overview
+
+## Development Environment
+
+## Task List / Progress
+
+## References
