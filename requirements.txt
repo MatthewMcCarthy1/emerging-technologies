@@ -1,3 +1,14 @@
+# Numerical arrays.
 numpy
+
+# Plotting.
 matplotlib
+
+# Data Frames.
 pandas
+
+# Quantum computing.
+qiskit[visualization]
+
+# Quantum simulators.
+qiskit-aer
