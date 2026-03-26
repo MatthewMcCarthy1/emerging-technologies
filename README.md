@@ -8,7 +8,7 @@ This repository contains my assessment submission for the Emerging Technologies 
 
 ### The Deutsch-Jozsa Problem
 
-Given a black-box Boolean function that is promised to be either **constant** (same output for every input) or **balanced** (returns `True` for exactly half of its inputs), the goal is to determine which type it is using as few queries as possible. Classically, a 4-bit function requires up to 9 queries in the worst case. The Deutsch-Jozsa quantum algorithm solves the same problem with a single query — an exponential speedup achieved through [superposition](https://quantum.cloud.ibm.com/learning/en/courses/basics-of-quantum-information/single-systems) and [interference](https://quantum.cloud.ibm.com/learning/en/courses/fundamentals-of-quantum-algorithms/quantum-query-algorithms/deutsch-jozsa-algorithm).
+Given a black-box Boolean function that is promised to be either **constant** (same output for every input) or **balanced** (returns `True` for exactly half of its inputs), the goal is to determine which type it is using as few queries as possible. Classically, a 4-bit function requires up to 9 queries in the worst case. The Deutsch-Jozsa quantum algorithm solves the same problem with a single query — an exponential speedup achieved through [superposition](https://quantum.microsoft.com/en-us/insights/education/concepts/superposition) and [interference](https://quantum.microsoft.com/en-us/insights/education/concepts/interference).
 
 ### Notebook Overview
 
