@@ -36,7 +36,7 @@ The easiest way to run this notebook is with [GitHub Codespaces](https://github.
 
 #### Prerequisites
 
-- [Python 3](https://www.python.org/downloads/) (3.10 or later recommended)
+- [Python 3](https://www.python.org/downloads/) (3.10 or later recommended; developed and tested on 3.14)
 - [Git](https://git-scm.com/)
 - [Jupyter Notebook](https://jupyter.org/install) (`pip install jupyter`)
 

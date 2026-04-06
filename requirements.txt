@@ -9,3 +9,6 @@ pandas
 
 # Quantum computing.
 qiskit[visualization]
+
+# Noisy quantum simulation.
+qiskit-aer
