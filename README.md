@@ -20,6 +20,11 @@ The notebook works through five problems that build on each other, progressing f
 4. **Deutsch's Algorithm** — implementing the single-bit quantum algorithm with Qiskit, demonstrating phase kickback and interference to classify an oracle in one query.
 5. **Scaling to Deutsch-Jozsa** — generalising to 4-bit inputs using multi-controlled X gates, showing that a single quantum query replaces up to 9 classical queries.
 
+Two supplementary sections extend the analysis beyond the core brief:
+
+- **Noise Simulation** — re-running the 4-bit algorithm under a depolarising noise model using `qiskit-aer`, and validating the diagnosis with a hand-optimised oracle that restores near-perfect accuracy for the constant cases.
+- **Scaling Analysis** — running a generalised Deutsch-Jozsa circuit from $n=1$ to $n=10$ with `assert`-guarded correctness checks, and plotting classical ($2^{n-1}+1$) versus quantum (1) query counts on a log scale to make the exponential gap visible.
+
 Each problem includes code implementations with type hints and docstrings, mathematical explanations with LaTeX, circuit visualisations, and independent verification tests.
 
 ## Getting Started
@@ -81,3 +86,4 @@ emerging-technologies/
 - [Matplotlib](https://matplotlib.org/) — plotting oracle output signatures and query count distributions.
 - [pandas](https://pandas.pydata.org/) — displaying truth tables as formatted DataFrames.
 - [Qiskit](https://qiskit.org/) — quantum circuit construction, visualisation, and statevector simulation. Used to implement the oracle circuits, Deutsch's algorithm, and the Deutsch-Jozsa algorithm.
+- [Qiskit Aer](https://qiskit.github.io/qiskit-aer/) — high-performance shot-based simulator used in the noise simulation section to model realistic gate errors via a depolarising channel.
